@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="60">
+    <title>New Jani Cone & Fast Food Resturent</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+    <script src="Script/main.js" defer></script>
+</head>
+<body>
+    <h1>Abdullah</h1>
+    <h2>Time</h2>
+    
+    
+    <script>
+        
+        // Adding 2 numbers in JavaScript with the help of function
+
+        // let addTwoNumber = function (num, num2){
+        //     let total = num % num2;
+        //     return total;
+        // }
+        // document.querySelector("h1").textContent = addTwoNumber(5, 2);
+
+
+        // Digital Clock
+        let timee = new Date(), h = timee.getHours(), m = timee.getMinutes(), s = timee.getSeconds(), session = "AM";
+        // if (h = 12) {
+        //     h = 0h;
+        // }
+        if (h > 12){
+            session = "PM"
+            h = h - 12
+        }
+        document.querySelector("h2").textContent = h + ":" + m + ":" + s + "  " + session;
+
+        // function functionName(){}
+        // let theFunction = function () {}
+        // let arrowFunction = () => {}
+        // let theNewArrow = =>
+</script>
+</body>
+</html>
